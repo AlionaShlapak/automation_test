@@ -21,6 +21,7 @@ describe('The Subscriptions page', () => {
         //dashboard.openHamburgerMenu()
         //cy.contains('Subscriptions').click()
         //packages.openPackagesPage()
+        // comment
         cy.url().should('include', 'packages')
         cy.get('.styles_marketplaceButton__imageTablet__2hf5y').click()
         //cy.get('.styles_header__searchToggleImage__2frvW').click()
